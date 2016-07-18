@@ -16,4 +16,5 @@ class Capture(models.Model):
     pokemon = models.OneToOneField(Pokemon)
     captured_at = models.DateTimeField(auto_now_add = True)
 
+
     #models.DateTimeField(default = timezone.now)
